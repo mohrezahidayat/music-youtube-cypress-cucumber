@@ -50,7 +50,6 @@ Feature: Youtube Music Home Page
     And User can see music playlist
     And User can scroll down page
 
-    @play
     Scenario: Play Music
     Given User already at home music youtube
     When User click icon play at one of music thumbnail
